@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOUTIQUES</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#faf7f5;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url('file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/project /project/project/e1a81cd44e8a53c88308ce144c5e9b5a.webp.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+header h1{
+    font-size:4rem;
+    letter-spacing:3px;
+}
+
+header p{
+    font-size:1.3rem;
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    background:#c2185b;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:70px 10%;
+}
+
+.title{
+    text-align:center;
+    color:#c2185b;
+    margin-bottom:40px;
+    font-size:2rem;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.contact{
+    background:#fff;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+.buttons a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+    color:white;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.location{
+    background:#4285F4;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>BOUTIQUES</h1>
+    <p>Where Style Meets Elegance</p>
+    <a href="#contact" class="btn">Visit Our Boutique</a>
+</header>
+
+<section>
+    <h2 class="title">About Us</h2>
+    <div class="about">
+        <p>
+            Welcome to BOUTIQUES, your destination for elegant,
+            trendy and beautifully crafted women's fashion. We bring
+            together timeless styles and modern trends to help you
+            look your best for every occasion.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 class="title">Our Collection</h2>
+    <div class="gallery">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/project /project/project/ff4190358e716dac5d7a67505a1ece76.jpg" alt="">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/project /project/project/c06c9804bee22cb01d41d9e1c8ed59ea.jpg" alt="">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/project /project/project/ba640cb8c1e3b8723accadfcfad9ca90.webp.jpg" alt="">
+    </div>
+</section>
+
+<section>
+    <h2 class="title">Why Choose Us?</h2>
+    <div class="features">
+        <div class="card">
+            <h3>Premium Quality</h3>
+            <p>Carefully selected fabrics and designs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Latest Trends</h3>
+            <p>Fashion-forward collections for every season.</p>
+        </div>
+
+        <div class="card">
+            <h3>Affordable Luxury</h3>
+            <p>Beautiful outfits at reasonable prices.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="title">Contact Us</h2>
+
+    <p><strong>Address:</strong></p>
+
+    <p>
+    xxxxxxx xxxxxxxxx xxxxxx<br>
+    xxxx xxxxxx xxxxxx xxx xxxxxx<br>
+    xxxxx xxxxx xxxxx xxxxx<br>
+    Bengaluru, Karnataka 56xxxx
+    </p>
+
+    <p><strong>Open:</strong> Till 9:00 PM</p>
+
+    <div class="buttons">
+        <a href="https://wa.me/919999999999" class="whatsapp">
+            WhatsApp
+        </a>
+
+        <a href="https://maps.google.com" class="location">
+            Location
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 BOUTIQUES | All Rights Reserved
+</footer>
+
+</body>
+</html>
